@@ -1,6 +1,6 @@
 package br.com.grupodimed.java8.feature1.seminterface;
 
-import br.com.grupodimed.java8.Motor;
+import br.com.grupodimed.java8.feature1.Motor;
 
 public class Maverick extends Veiculo {
     public Maverick() {

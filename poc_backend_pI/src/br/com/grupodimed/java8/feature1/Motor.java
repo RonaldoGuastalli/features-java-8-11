@@ -1,4 +1,4 @@
-package br.com.grupodimed.java8;
+package br.com.grupodimed.java8.feature1;
 
 public class Motor {
     private String tipo; //1.0, 2.0, turbo
