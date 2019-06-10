@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6037eb71-4d82-456e-b6f1-04eaef3fad21" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/IAceleracao.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/Veiculo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/Motor.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/Gol.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/Fiesta.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/Maverick.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/seminterface/Gol.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/seminterface/Fiesta.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/DefaultMetodos.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/inteface/IAceleracao.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/inteface/Fiesta.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/inteface/Gol.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/inteface/Maverick.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/seminterface/Maverick.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/seminterface/Veiculo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/patternstrategy/AceleracaoMotorComum.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/patternstrategy/AceleracaoMotorV8.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/inteface/Veiculo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/patternstrategy/Veiculo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/patternstrategy/Gol.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/patternstrategy/Fiesta.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/patternstrategy/Maverick.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/patternstrategy/TestePatternStrategy.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/DefaultMetodosTeste.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/TesteUsandoInterface.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/inteface/TesteUsandoInterface.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/seminterface/TesteSemUsoInterface.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/newdefaultmethods/IAceleracao.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/newdefaultmethods/Veiculo.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/newdefaultmethods/Maverick.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/newdefaultmethods/Fiesta.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/newdefaultmethods/Gol.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/newdefaultmethods/TesteDefaultMethods.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/newdefaultmethods/TesteDefaultMethods.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/SomarDoisNUmeros.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/Calculadora.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/TesteCalculadoraBiFunctionImpl.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/TesteCalculadoraBiFunction.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/CalculadoraBiFunction.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/pessoa/Pessoa.java" />
+        <option value="$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/pessoa/TestePessoa.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1680" />
+    <option name="height" value="1050" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="poc_backend_pI" type="b2602c69:ProjectViewProjectNode" />
+              <item name="poc_backend_pI" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/br/com/grupodimed/java8/patternstrategy" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/br/com/grupodimed/java8/patternstrategy" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.grupodimed.java8.newdefaultmethods" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="br.com.grupodimed.java8.feature2" />
+      <recent name="br.com.grupodimed.java8" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestePessoa">
+    <configuration name="SomarDoisNUmeros" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.grupodimed.java8.feature2.SomarDoisNUmeros" />
+      <module name="poc_backend_pI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.grupodimed.java8.feature2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteCalculadoraBiFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.grupodimed.java8.feature2.TesteCalculadoraBiFunction" />
+      <module name="poc_backend_pI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.grupodimed.java8.feature2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteDefaultMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.grupodimed.java8.feature1.newdefaultmethods.TesteDefaultMethods" />
+      <module name="poc_backend_pI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.grupodimed.java8.feature1.newdefaultmethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestePessoa" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.grupodimed.java8.feature2.pessoa.TestePessoa" />
+      <module name="poc_backend_pI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.grupodimed.java8.feature2.pessoa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteUsandoInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.grupodimed.java8.feature1.inteface.TesteUsandoInterface" />
+      <module name="poc_backend_pI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.grupodimed.java8.feature1.inteface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TesteUsandoInterface" />
+      <item itemvalue="Application.TesteDefaultMethods" />
+      <item itemvalue="Application.SomarDoisNUmeros" />
+      <item itemvalue="Application.TesteCalculadoraBiFunction" />
+      <item itemvalue="Application.TestePessoa" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestePessoa" />
+        <item itemvalue="Application.TesteCalculadoraBiFunction" />
+        <item itemvalue="Application.SomarDoisNUmeros" />
+        <item itemvalue="Application.TesteDefaultMethods" />
+        <item itemvalue="Application.TesteUsandoInterface" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6037eb71-4d82-456e-b6f1-04eaef3fad21" name="Default Changelist" comment="" />
+      <created>1560093648083</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560093648083</updated>
+      <workItem from="1560093649439" duration="20346000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="__and_2_more - 2019.06.09 at 13h 58m 59s.xml">
+      <configuration name="* and 2 more" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="__and_2_more - 2019.06.09 at 13h 59m 08s.xml">
+      <configuration name="* and 2 more" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="__and_2_more - 2019.06.09 at 13h 59m 18s.xml">
+      <configuration name="* and 2 more" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="20346000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.15689866" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.29081634" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3298611" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.3298611" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3298611" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="right" id="Capture Analysis" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/Motor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#291#292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/DefaultMetodos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/inteface/Gol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/inteface/IAceleracao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/seminterface/Fiesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/seminterface/Gol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/seminterface/Maverick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/seminterface/Veiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/patternstrategy/IAceleracao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/inteface/Maverick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/patternstrategy/AceleracaoMotorV8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/patternstrategy/Gol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/patternstrategy/Fiesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/patternstrategy/Maverick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/seminterface/TesteSemUsoInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/patternstrategy/TesteUsandoPatternStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram//Users/ronaldoguastalli/Projects/poc_backend_pI/src/br/com/grupodimed/java8/inteface">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement>$PROJECT_DIR$/src/br/com/grupodimed/java8/inteface</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="614.5" y="264.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/br.com.grupodimed.java8.inteface">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>br.com.grupodimed.java8.inteface</OriginalElement>
+          <nodes>
+            <node x="122.0" y="152.0">br.com.grupodimed.java8.inteface.Fiesta</node>
+            <node x="230.0" y="152.0">br.com.grupodimed.java8.inteface.Gol</node>
+            <node x="118.5" y="76.0">br.com.grupodimed.java8.inteface.Veiculo</node>
+            <node x="0.0" y="152.0">br.com.grupodimed.java8.inteface.Maverick</node>
+            <node x="104.5" y="0.0">br.com.grupodimed.java8.inteface.IAceleracao</node>
+            <node x="0.0" y="223.0">br.com.grupodimed.java8.inteface.TesteUsandoInterface</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="br.com.grupodimed.java8.inteface.Veiculo" target="br.com.grupodimed.java8.inteface.IAceleracao">
+              <point x="0.0" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+            <edge source="br.com.grupodimed.java8.inteface.Maverick" target="br.com.grupodimed.java8.inteface.Veiculo">
+              <point x="0.0" y="-13.0" />
+              <point x="51.0" y="127.0" />
+              <point x="134.33333333333331" y="127.0" />
+              <point x="-31.66666666666667" y="13.0" />
+            </edge>
+            <edge source="br.com.grupodimed.java8.inteface.Gol" target="br.com.grupodimed.java8.inteface.Veiculo">
+              <point x="0.0" y="-13.0" />
+              <point x="263.5" y="127.0" />
+              <point x="197.66666666666669" y="127.0" />
+              <point x="31.666666666666686" y="13.0" />
+            </edge>
+            <edge source="br.com.grupodimed.java8.inteface.Fiesta" target="br.com.grupodimed.java8.inteface.Veiculo">
+              <point x="0.0" y="-13.0" />
+              <point x="0.0" y="13.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-159.0" y="124.5" />
+          <SelectedNodes>
+            <node>br.com.grupodimed.java8.inteface.Fiesta</node>
+            <node>br.com.grupodimed.java8.inteface.Gol</node>
+            <node>br.com.grupodimed.java8.inteface.Veiculo</node>
+            <node>br.com.grupodimed.java8.inteface.Maverick</node>
+            <node>br.com.grupodimed.java8.inteface.IAceleracao</node>
+            <node>br.com.grupodimed.java8.inteface.TesteUsandoInterface</node>
+          </SelectedNodes>
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/br.com.grupodimed.java8.patternstrategy">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>br.com.grupodimed.java8.patternstrategy</OriginalElement>
+          <nodes>
+            <node x="" y="">br.com.grupodimed.java8.patternstrategy.AceleracaoMotorV8</node>
+            <node x="" y="">br.com.grupodimed.java8.patternstrategy.Fiesta</node>
+            <node x="" y="">br.com.grupodimed.java8.patternstrategy.TesteUsandoPatternStrategy</node>
+            <node x="" y="">br.com.grupodimed.java8.patternstrategy.AceleracaoMotorComum</node>
+            <node x="" y="">br.com.grupodimed.java8.patternstrategy.IAceleracao</node>
+            <node x="" y="">br.com.grupodimed.java8.patternstrategy.Gol</node>
+            <node x="" y="">br.com.grupodimed.java8.patternstrategy.Veiculo</node>
+            <node x="" y="">br.com.grupodimed.java8.patternstrategy.Maverick</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="610.0" y="124.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/newdefaultmethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/patternstrategy/Veiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/patternstrategy/AceleracaoMotorComum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/newdefaultmethods/IAceleracao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/inteface/Veiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/newdefaultmethods/Veiculo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="5" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/newdefaultmethods/Maverick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/inteface/Fiesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/newdefaultmethods/Fiesta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/newdefaultmethods/Gol.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-start-column="50" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/inteface/TesteUsandoInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature1/newdefaultmethods/TesteDefaultMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/BiPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/BiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="67" column="43" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/TesteCalculadoraBiFunctionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/SomarDoisNUmeros.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/TesteCalculadoraBiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/CalculadoraBiFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/pessoa/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/grupodimed/java8/feature2/pessoa/TestePessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
