@@ -1,0 +1,20 @@
+package br.com.grupodimed.java8.defaultinterface.newdefaultmethods;
+
+public class TesteDefaultMethods {
+    public static void main(String[] args) {
+        Gol gol = new Gol();
+        Fiesta fiesta = new Fiesta();
+        Maverick moMaverick = new Maverick();
+        StringBuffer stringBuffer = new StringBuffer();
+
+        System.out.println(stringBuffer
+                .append(">>>> Usando NOVO DEFAULT METHODS >>>>\n")
+                .append("Gol: ").append(gol.acelerar()).append(" - ").append(gol.desacelerar())
+                .append("\n")
+                .append("Fiesta: ").append(fiesta.acelerar()).append(" - ").append(fiesta.desacelerar())
+                .append("\n")
+                .append("Maverick: ").append(moMaverick.acelerar()).append(" - ").append(moMaverick.desacelerar())
+        );
+
+    }
+}
