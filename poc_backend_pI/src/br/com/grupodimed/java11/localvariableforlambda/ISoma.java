@@ -1,4 +1,4 @@
-package br.com.grupodimed.java11;
+package br.com.grupodimed.java11.localvariableforlambda;
 
 @FunctionalInterface
 public interface ISoma {
