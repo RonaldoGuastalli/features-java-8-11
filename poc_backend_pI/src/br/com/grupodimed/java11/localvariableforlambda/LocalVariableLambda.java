@@ -1,4 +1,6 @@
-package br.com.grupodimed.java11;
+package br.com.grupodimed.java11.localvariableforlambda;
+
+import br.com.grupodimed.java11.localvariableforlambda.ISoma;
 
 public class LocalVariableLambda {
 
@@ -16,10 +18,6 @@ public class LocalVariableLambda {
 
         ISoma soma3 = (n11, n21, n31, string1) -> n11 + Math.pow(n31, Double.parseDouble(string1));
         System.out.println(soma3.paramParaCalculo(n1, n2, n3, string));
-
-
-
-
 
     }
 
