@@ -6,9 +6,6 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 public class Pessoa {
-    public enum Sexo {
-        MASCULINO, FEMININO
-    }
 
     private String nome;
     private Sexo sexo;
@@ -54,18 +51,16 @@ public class Pessoa {
     public String toString() {
         return "Pessoa{" +
                 "nome:'" + nome + '\'' +
-                ", sexo: " + sexo +
-                ", anoAniversario: " + anoAniversario +
+                ", sexo: " + sexo.getDescricao() +
+                ", ano aniversário: " + anoAniversario +
                 ", idade: " + getIdade() +
                 ", email:'" + email + '\'' +
                 '}';
     }
 
-    public static void processPessoa(List<Pessoa> pessoas, Predicate<Pessoa> teste, Consumer<Pessoa> bloco) {
-        for (Pessoa pessoa : pessoas) {
-            if (teste.test(pessoa)) {
-                bloco.accept(pessoa);
-            }
-        }
+    public static void processPessoa(List<Pessoa> pessoas, Predicate<Pessoa> filter, Consumer<Pessoa> bloco) {
+        pessoas.stream()
+                .filter(filter::test)
+                .forEach(bloco::accept);
     }
 }

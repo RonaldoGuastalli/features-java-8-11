@@ -2,7 +2,7 @@ package br.com.grupodimed.java8.defaultinterface.newdefaultmethods;
 
 import br.com.grupodimed.java8.defaultinterface.Motor;
 
-public class Maverick extends Veiculo {
+public class Maverick extends AbstractVeiculo {
     public Maverick() {
         motor = new Motor("V8");
     }
